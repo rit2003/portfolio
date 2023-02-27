@@ -1,0 +1,193 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farman | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="https://i.ibb.co/yQj6r8T/fav-logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/2786bc3471.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://i.ibb.co/DMD065m/logo.png" class="logo">
+                <ul id="mobile-menu">
+                    <li><a href="#header">Home<span class="color">.</span></a></li>
+                    <li><a href="#about">About<span class="color">.</span></a></li>
+                    <li><a href="#services">Services<span class="color">.</span></a></li>
+                    <li><a href="#portfolio">Portfolio<span class="color">.</span></a></li>
+                    <li><a href="#contact">Contact Me<span class="color">.</span></a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <p onclick="openMenu()"><i class="fa-solid fa-bars" onclick="openMenue()"></i></p>
+            </nav>
+            <div class="header-text">
+                <p>A WEB LEARNER<span class="color">_</span></p>
+                <h1 class="main-title">Salam, I'm <span class="color">F</span>arman Ali<br>
+                    Crafting <span class="bgcolor">Digital Experiences</span></h1>
+            </div>
+
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://i.ibb.co/y58ZtLB/user.png" alt="users">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me<span class="color">.</span></h2>
+                    <p>Web developer with expertise in creating innovative and user-friendly websites. Skilled in HTML,
+                        CSS, JavaScript, and various web development tools. Committed to delivering high-quality work
+                        with exceptional attention to detail. Passionate about exploring new technologies and finding
+                        creative solutions to complex problems.</p>
+                    <ul>
+                        <li class="tab-links active-link" onclick="openTab('skills')">Skills</li>
+                        <li class="tab-links" onclick="openTab('education')">Education</li>
+                        <li class="tab-links" onclick="openTab('experiences')">Experiences</li>
+                    </ul>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <h3 class="bgcolor">Web Designing</h3>
+                        <p>Creating Innovative Designs</p>
+
+                        <h3 class="bgcolor">Entrepreneurship</h3>
+                        <p>Using technology for earning</p>
+
+                        <h3 class="bgcolor">Blogging</h3>
+                        <p>Covering the trends in Tech</p>
+
+                    </div>
+
+                    <div class="tab-contents education" id="education">
+                        <h3 class="bgcolor">2020 - Present</h3>
+                        <p>BS Information Technology | The Islamia University</p>
+
+                        <h3 class="bgcolor">2018 - 2020</h3>
+                        <p>Fsc Medical | Punjab Group of Colleges</p>
+
+                        <h3 class="bgcolor">2016 - 2018</h3>
+                        <p>Matriculation | Government High School Januwala</p>
+
+                    </div>
+
+                    <div class="tab-contents experiences" id="experiences">
+                        <h3 class="bgcolor">Third Unicorn</h3>
+                        <p>Works as a senior web developer</p>
+
+                        <h3 class="bgcolor">Pak Tech</h3>
+                        <p>Worked as an internee, learned a lot with professional training.</p>
+
+                        <h3 class="bgcolor">Zulfiqar</h3>
+                        <p>Worked as junior developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h2 class="sub-title">My Services<span class="color">.</span></h2>
+            <div class="row">
+                <div class="services-col">
+                    <i class="fa-brands fa-app-store"></i><br>
+                    <h3>Iphone App Designing</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit amet quos fugit? Quae animi laborum libero, est praesentium unde iure.</p><br>
+                    <a href="#">learn more</a>  
+                </div>
+                <div class="services-col">
+                    <i class="fa-brands fa-google-play"></i><br>
+                    <h3>Android App Designing</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit amet quos fugit? Quae animi laborum libero, est praesentium unde iure.</p><br>
+                    <a href="#">learn more</a>  
+                </div>
+                <div class="services-col">
+                    <i class="fa-brands fa-microsoft"></i></i>
+                    <h3>Web App Designing</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit amet quos fugit? Quae animi laborum libero, est praesentium unde iure.</p><br>
+                    <a href="#">learn more</a>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">My Work<span class="color">.</span></h2>
+            <div class="row">
+                <div class="portfolio-col">
+                    <img src="https://i.ibb.co/gvMycv9/work-1.png">
+                    <div class="layer">
+                        <h3>App Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi laboriosam explicabo Lorem ipsum dolor</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-col">
+                    <img src="https://i.ibb.co/QDQ3VWv/work-2.png">
+                    <div class="layer">
+                        <h3>Shopping App Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi laboriosam explicabo Lorem ipsum dolor</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-col">
+                    <img src="https://i.ibb.co/nc4vLyb/work-3.png">
+                    <div class="layer">
+                        <h3>Reading App Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi laboriosam explicabo Lorem ipsum dolor</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <button class="btn">Learn More</button>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <form>
+                        <input type="text" name="fullName" id="full-name" placeholder="Your Name">
+                        <input type="email" name="Email" id="email" placeholder="Your Email">
+                        <textarea name="message" id="message"rows="10" placeholder="Your Message ..."></textarea>
+                        <input type="submit" value="Submit" class="btn2">
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h2 class="sub-title">My Contact<span class="color">.</span></h2>
+                    <p class="bgcolor"><i class="fa-sharp fa-solid fa-phone"></i> Phone</p>
+                    <p>+923053666838</p>
+                    <p class="bgcolor"><i class="fa-solid fa-paper-plane"></i> Email</p>
+                    <p>farmanali6349@gmail.com</p>
+                    <p class="bgcolor"><i class="fa-solid fa-user"></i> Social Profiles</p>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Copyright © 2023 <span class="color">F</span>arman<span class="color">.</span> Ali  | All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+<script src="js.js"></script>
+</html>
